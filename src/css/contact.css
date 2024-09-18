@@ -1,0 +1,46 @@
+#contact{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#contact .contactForm {
+    position: relative;
+}
+#contact .contactForm form .formContent {
+    width: 70%;
+}
+
+#contact .contactForm form input,
+#contact .contactForm form textarea {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    color: rgb(0, 0, 0);
+    font-size: medium;
+    font-weight: 600;
+    background: rgba(145, 193, 188, 0.926);
+    padding: 5px 15px;
+    margin: 10px 0px;
+}
+#contact .contactForm form input:focus,
+#contact .contactForm form textarea:focus{
+    background: rgb(182, 241, 235);
+    box-shadow: 0 0 50px  rgb(25, 121, 117);
+}
+#contact .contactForm form textarea {
+    height: 150px;
+    resize: none;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(214, 202, 158) rgb(255, 249, 228);
+}
+
+#contact .relatedContent{
+    width: 80%;
+    text-align: center;
+    margin: 10px 0px;
+    font-size: large;
+    font-weight: 400;
+    color: beige;
+}
+#contact button:hover{
+    box-shadow: 0 0 50px  rgb(25, 121, 117);
+}

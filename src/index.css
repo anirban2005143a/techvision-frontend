@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+}
+
+#EventCard {
+    background-image: linear-gradient(to bottom, rgba(8, 86, 122, 0.413), rgba(19, 119, 106, 0.247), black);
+    /* background-image: url("/cardbg.jpg"); */
+    background-size:  cover;
+    background-repeat: no-repeat;
+    transition: all;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+
+#EventCard:hover {
+    scale: 1.05;
+}
+
+#EventCard:hover .eventname,
+.eventreadMore {
+    opacity: 0;
+}
+
+#EventCard:hover .eventReadMore {
+    opacity: 0;
+}
+
+#EventCard .layout {
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.611);
+    transition: all;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+
+#EventCard .layout:hover {
+    opacity: 1;
+}
+
+#eventList .title {
+ letter-spacing: 2px;
+}
+
+#hero-section .festLogo img:hover {
+    transform: scale(1.05)
+}
+
+#homepage #exploreEvents .blury {
+    background-image: linear-gradient(to top, black 20%, transparent);
+}
+
+
+#homepage #result .img{
+    box-shadow: 0 0 50px rgb(4, 65, 43) ;
+    transition: all 100ms ease-in-out;
+}
+
+#homepage #result .img:hover{
+    box-shadow: 0 0 90px rgba(4, 107, 71, 0.868) ;
+}
+
+#homepage #explore-events,
+#homepage #register-events,
+#eventDetail #register-events
+{
+    clip-path: polygon(20% 0%, 80% 0%, 100% 50%, 80% 100%, 20% 100%, 0% 50%);
+    box-shadow: 0 4px 8px rgba(211, 39, 39, 0.3); /* Adds a shadow */
+  position: relative;
+}
+
+#homepage #result .slide,
+#eventDetail .header .slide{
+    animation: slideResultiimg 8s ease-in-out 0s infinite alternate;
+}
+@keyframes slideResultiimg{
+    0%{
+        transform: translateX(0);
+    }
+    20%{
+        transform: translateX(0%);
+    }
+    40%{
+        transform: translateX(-33.33333%);
+    }
+    60%{
+        transform: translateX(-33.33333%)
+    }
+    80%{
+        transform: translateX(-66.66666%);
+    }
+    100%{
+        transform: translateX(-66.66666%);
+    }
+}
+
+.blurryBg {
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.protest-guerrilla-regular {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.handjet-font {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.unlock-regular {
+    font-family: "Unlock", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dosis-font {
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
