@@ -7,6 +7,7 @@ import Contact from './components/utiles/Contact';
 import EventDetail from './components/utiles/EventDetail';
 import Results from './components/utiles/results';
 import ScrollToTop from './components/functions/ScrolltoTop';
+import Aboutgec from './components/utiles/about/aboutgce';
 
 const App = () => {
 
@@ -48,6 +49,14 @@ const App = () => {
       <ScrollToTop/>
         <Navbar />
         <Results/>
+      </>
+    },
+    {
+      path: "/about/gec",
+      element: <>
+      <ScrollToTop/>
+        <Navbar />
+        <Aboutgec/>
       </>
     },
   ]);

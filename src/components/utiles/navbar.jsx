@@ -77,7 +77,8 @@ const navbar = () => {
                     <div className="relative group">
                         <button
                         onClick={()=>{
-                            aboutMenuOpen ? setaboutMenuOpen(false) : setaboutMenuOpen(true)
+                            navigate("/about/gec")
+                            // aboutMenuOpen ? setaboutMenuOpen(false) : setaboutMenuOpen(true)
                         }}
                             className="relative inline-block p-[1px] py-[3px] font-semibold leading-6 text-white bg-gray-800 shadow-2xl cursor-pointer  shadow-zinc-900  duration-300 ease-in-out hover:scale-105 active:scale-95"
                         >

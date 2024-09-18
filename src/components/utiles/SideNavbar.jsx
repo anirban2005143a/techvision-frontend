@@ -16,6 +16,7 @@ const SideNavbar = (props) => {
                 }}>Home</div>
                 <div className="about h-full text-3xl" onClick={() => {
                     document.body.style.overflow = "auto"
+                    naviagte("/about/gec")
                 }} >About</div>
                 <div className="events h-full text-3xl" onClick={() => {
                     document.body.style.overflow = "auto"
