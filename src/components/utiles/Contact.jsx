@@ -66,7 +66,7 @@ const Contatct = () => {
                                 }} />
                             </div>
                             <div className="mailQurey w-full my-1">
-                                <label className='dosis-font text-sm text-white' htmlFor="mailQurey" style={{ fontWeight: "600" }}>Write Subject</label><br />
+                                <label className='dosis-font text-sm text-white' htmlFor="mailQurey" style={{ fontWeight: "600" }}>Write Qurey</label><br />
                                 <input required type="text" id='mailQurey' placeholder='Write Qurey' className='placeholder:text-gray-900 dosis-font' value={mailSubject} onChange={(e) => {
                                     setmailSubject(e.target.value)
                                 }} />
