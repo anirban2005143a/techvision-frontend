@@ -243,9 +243,9 @@ const HomePage = () => {
                 <div className={`hackthon flex md:flex-row flex-col justify-between items-center p-2 py-12`}>
                     <div className="img md:w-6/12 w-10/12 rounded-lg overflow-hidden mx-5">
                         <div className="slide flex w-[300%] ">
-                            <img className=' w-1/3 bg-cover' src="/hack1.jpg" alt="" />
-                            <img className=' w-1/3 bg-cover' src="/hack2.png" alt="" />
-                            <img className=' w-1/3 bg-cover' src="/hack3.jpg" alt="" />
+                            <img className=' w-1/3 bg-cover' src="/hack1.jpg" alt="" style={{aspectRatio:"16/9"}} />
+                            <img className=' w-1/3 bg-cover' src="/hack2.png" alt="" style={{aspectRatio:"16/9"}} />
+                            <img className=' w-1/3 bg-cover' src="/hack3.jpg" alt="" style={{aspectRatio:"16/9"}} />
                         </div>
                     </div>
                     <div className="content blurrybg md:w-5/12 w-11/12 my-4 text-white mx-5 text-end px-4 py-3 border-b-4 border-l-4 border-[1px] backdrop-blur-[1px] bg-[#4848485e]" style={{}}>
@@ -257,9 +257,9 @@ const HomePage = () => {
                 <div className={`robotRace flex md:flex-row-reverse flex-col justify-between items-center p-2 py-12`}>
                     <div className="img md:w-6/12 w-10/12 rounded-lg overflow-hidden mx-5">
                         <div className="slide flex w-[300%] " style={{ animationDelay: "1s" }}>
-                            <img className=' w-1/3 bg-cover' src="/carfight1.jpeg" alt="" />
-                            <img className=' w-1/3 bg-cover' src="/carfight2.jpeg" alt="" />
-                            <img className=' w-1/3 bg-cover' src="/carfight3.jpeg" alt="" />
+                            <img className=' w-1/3 bg-cover' src="/carfight1.jpeg" alt="" style={{aspectRatio:"16/9"}}/>
+                            <img className=' w-1/3 bg-cover' src="/carfight2.jpeg" alt="" style={{aspectRatio:"16/9"}}/>
+                            <img className=' w-1/3 bg-cover' src="/carfight3.jpeg" alt="" style={{aspectRatio:"16/9"}}/>
                         </div>
                     </div>
                     <div className="content blurrybg md:w-5/12 w-11/12 my-4 text-white mx-5 text-start px-4 py-3 border-b-4 border-l-4 border-[1px] backdrop-blur-[1px] bg-[#4848485e]" style={{}}>
@@ -271,9 +271,9 @@ const HomePage = () => {
                 <div className={`carFight flex md:flex-row flex-col justify-between items-center p-2 py-12`}>
                     <div className="img md:w-6/12 w-10/12 rounded-lg overflow-hidden mx-5">
                         <div className="slide flex w-[300%] ">
-                            <img className=' w-1/3 bg-cover' src="/carfight1.jpeg" alt="" />
-                            <img className=' w-1/3 bg-cover' src="/carfight2.jpeg" alt="" />
-                            <img className=' w-1/3 bg-cover' src="/carfight3.jpeg" alt="" />
+                            <img className=' w-1/3 bg-cover' src="/carfight1.jpeg" alt="" style={{aspectRatio:"16/9"}}/>
+                            <img className=' w-1/3 bg-cover' src="/carfight2.jpeg" alt="" style={{aspectRatio:"16/9"}}/>
+                            <img className=' w-1/3 bg-cover' src="/carfight3.jpeg" alt="" style={{aspectRatio:"16/9"}}/>
                         </div>
                     </div>
                     <div className="content blurrybg  md:w-5/12 w-11/12 my-4 text-white mx-5 text-end px-4 py-3 border-b-4 border-l-4 border-[1px] backdrop-blur-[1px] bg-[#4848485e]" style={{}}>
